@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48715CF724C850A70065D0E1 /* bowling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48715CF624C850A70065D0E1 /* bowling.cpp */; };
+		4816BA3B24FF9FB200A4BA81 /* path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4816BA3A24FF9FB200A4BA81 /* path.cpp */; };
+		4816BA4024FFC4B000A4BA81 /* primefactor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4816BA3F24FFC4B000A4BA81 /* primefactor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,10 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4816BA3A24FF9FB200A4BA81 /* path.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = path.cpp; sourceTree = "<group>"; };
+		4816BA3C24FF9FBC00A4BA81 /* path.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = path.inp; sourceTree = "<group>"; };
+		4816BA3D24FF9FCF00A4BA81 /* path.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = path.out; sourceTree = "<group>"; };
+		4816BA3F24FFC4B000A4BA81 /* primefactor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primefactor.cpp; sourceTree = "<group>"; };
+		4816BA4124FFC4BB00A4BA81 /* primefactor.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = primefactor.inp; sourceTree = "<group>"; };
+		4816BA4224FFC4C400A4BA81 /* primefactor.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = primefactor.out; sourceTree = "<group>"; };
 		48715CEB24C84FE40065D0E1 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		48715CF624C850A70065D0E1 /* bowling.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bowling.cpp; sourceTree = "<group>"; };
-		48715CF824C850EA0065D0E1 /* bowling.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = bowling.inp; sourceTree = "<group>"; };
-		48715CF924C850F40065D0E1 /* bowling.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = bowling.out; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4816BA3924FF9F8D00A4BA81 /* 1.격자경로 */ = {
+			isa = PBXGroup;
+			children = (
+				4816BA3A24FF9FB200A4BA81 /* path.cpp */,
+				4816BA3C24FF9FBC00A4BA81 /* path.inp */,
+				4816BA3D24FF9FCF00A4BA81 /* path.out */,
+			);
+			name = "1.격자경로";
+			path = "1.격자경로";
+			sourceTree = "<group>";
+		};
+		4816BA3E24FFC46400A4BA81 /* 2.정수소인수분해 */ = {
+			isa = PBXGroup;
+			children = (
+				4816BA3F24FFC4B000A4BA81 /* primefactor.cpp */,
+				4816BA4124FFC4BB00A4BA81 /* primefactor.inp */,
+				4816BA4224FFC4C400A4BA81 /* primefactor.out */,
+			);
+			name = "2.정수소인수분해";
+			path = "2.정수소인수분해";
+			sourceTree = "<group>";
+		};
 		48715CE224C84FE40065D0E1 = {
 			isa = PBXGroup;
 			children = (
@@ -59,19 +85,10 @@
 		48715CED24C84FE40065D0E1 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				48715CF524C850750065D0E1 /* 1.Bowling_Score */,
+				4816BA3924FF9F8D00A4BA81 /* 1.격자경로 */,
+				4816BA3E24FFC46400A4BA81 /* 2.정수소인수분해 */,
 			);
 			path = algorithm;
-			sourceTree = "<group>";
-		};
-		48715CF524C850750065D0E1 /* 1.Bowling_Score */ = {
-			isa = PBXGroup;
-			children = (
-				48715CF624C850A70065D0E1 /* bowling.cpp */,
-				48715CF824C850EA0065D0E1 /* bowling.inp */,
-				48715CF924C850F40065D0E1 /* bowling.out */,
-			);
-			path = 1.Bowling_Score;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48715CF724C850A70065D0E1 /* bowling.cpp in Sources */,
+				4816BA4024FFC4B000A4BA81 /* primefactor.cpp in Sources */,
+				4816BA3B24FF9FB200A4BA81 /* path.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
