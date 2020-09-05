@@ -36,7 +36,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/hogbal/Desktop/coding/algorithm/algorithm/2.&#x110c;&#x1165;&#x11bc;&#x1109;&#x116e;&#x1109;&#x1169;&#x110b;&#x1175;&#x11ab;&#x1109;&#x116e;&#x1107;&#x116e;&#x11ab;&#x1112;&#x1162;"
+      customWorkingDirectory = "/Users/hogbal/Desktop/coding/algorithm/algorithm/3.Finding Card Sequence"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"

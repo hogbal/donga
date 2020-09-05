@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4816BA4024FFC4B000A4BA81 /* primefactor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4816BA3F24FFC4B000A4BA81 /* primefactor.cpp */; };
+		48BF3A312503466E003A9B84 /* sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48BF3A302503466E003A9B84 /* sequence.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +30,9 @@
 		4816BA4124FFC4BB00A4BA81 /* primefactor.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = primefactor.inp; sourceTree = "<group>"; };
 		4816BA4224FFC4C400A4BA81 /* primefactor.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = primefactor.out; sourceTree = "<group>"; };
 		48715CEB24C84FE40065D0E1 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		48BF3A302503466E003A9B84 /* sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sequence.cpp; sourceTree = "<group>"; };
+		48BF3A3225034680003A9B84 /* sequence.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = sequence.inp; sourceTree = "<group>"; };
+		48BF3A3325034687003A9B84 /* sequence.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sequence.out; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +89,19 @@
 			children = (
 				4816BA3924FF9F8D00A4BA81 /* 1.격자경로 */,
 				4816BA3E24FFC46400A4BA81 /* 2.정수소인수분해 */,
+				48BF3A2F25034640003A9B84 /* 3.Finding Card Sequence */,
 			);
 			path = algorithm;
+			sourceTree = "<group>";
+		};
+		48BF3A2F25034640003A9B84 /* 3.Finding Card Sequence */ = {
+			isa = PBXGroup;
+			children = (
+				48BF3A302503466E003A9B84 /* sequence.cpp */,
+				48BF3A3225034680003A9B84 /* sequence.inp */,
+				48BF3A3325034687003A9B84 /* sequence.out */,
+			);
+			path = "3.Finding Card Sequence";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4816BA4024FFC4B000A4BA81 /* primefactor.cpp in Sources */,
+				48BF3A312503466E003A9B84 /* sequence.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
