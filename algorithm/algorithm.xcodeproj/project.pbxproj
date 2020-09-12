@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48BF3A312503466E003A9B84 /* sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48BF3A302503466E003A9B84 /* sequence.cpp */; };
+		484321ED250C944800672B0F /* turtle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 484321EC250C944800672B0F /* turtle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,15 @@
 		4816BA3F24FFC4B000A4BA81 /* primefactor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primefactor.cpp; sourceTree = "<group>"; };
 		4816BA4124FFC4BB00A4BA81 /* primefactor.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = primefactor.inp; sourceTree = "<group>"; };
 		4816BA4224FFC4C400A4BA81 /* primefactor.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = primefactor.out; sourceTree = "<group>"; };
+		484321E4250C7AC300672B0F /* expression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = expression.cpp; sourceTree = "<group>"; };
+		484321E6250C7ACE00672B0F /* expression.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = expression.inp; sourceTree = "<group>"; };
+		484321E7250C7AD700672B0F /* expression.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = expression.out; sourceTree = "<group>"; };
+		484321E8250C8C9200672B0F /* bowling.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bowling.cpp; sourceTree = "<group>"; };
+		484321EA250C8C9B00672B0F /* bowling.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = bowling.inp; sourceTree = "<group>"; };
+		484321EB250C8CA300672B0F /* bowling.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = bowling.out; sourceTree = "<group>"; };
+		484321EC250C944800672B0F /* turtle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = turtle.cpp; sourceTree = "<group>"; };
+		484321EE250C945200672B0F /* turtle.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = turtle.inp; sourceTree = "<group>"; };
+		484321EF250C945C00672B0F /* turtle.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = turtle.out; sourceTree = "<group>"; };
 		48715CEB24C84FE40065D0E1 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		48BF3A302503466E003A9B84 /* sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sequence.cpp; sourceTree = "<group>"; };
 		48BF3A3225034680003A9B84 /* sequence.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = sequence.inp; sourceTree = "<group>"; };
@@ -68,6 +77,36 @@
 			path = "2.정수소인수분해";
 			sourceTree = "<group>";
 		};
+		484321DD250C79E900672B0F /* 5.Bowling Score */ = {
+			isa = PBXGroup;
+			children = (
+				484321E8250C8C9200672B0F /* bowling.cpp */,
+				484321EA250C8C9B00672B0F /* bowling.inp */,
+				484321EB250C8CA300672B0F /* bowling.out */,
+			);
+			path = "5.Bowling Score";
+			sourceTree = "<group>";
+		};
+		484321DE250C79F600672B0F /* 6.Turtle */ = {
+			isa = PBXGroup;
+			children = (
+				484321EC250C944800672B0F /* turtle.cpp */,
+				484321EE250C945200672B0F /* turtle.inp */,
+				484321EF250C945C00672B0F /* turtle.out */,
+			);
+			path = 6.Turtle;
+			sourceTree = "<group>";
+		};
+		484321E3250C7AB300672B0F /* 4.산술연산 */ = {
+			isa = PBXGroup;
+			children = (
+				484321E4250C7AC300672B0F /* expression.cpp */,
+				484321E6250C7ACE00672B0F /* expression.inp */,
+				484321E7250C7AD700672B0F /* expression.out */,
+			);
+			path = "4.산술연산";
+			sourceTree = "<group>";
+		};
 		48715CE224C84FE40065D0E1 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +129,9 @@
 				4816BA3924FF9F8D00A4BA81 /* 1.격자경로 */,
 				4816BA3E24FFC46400A4BA81 /* 2.정수소인수분해 */,
 				48BF3A2F25034640003A9B84 /* 3.Finding Card Sequence */,
+				484321E3250C7AB300672B0F /* 4.산술연산 */,
+				484321DD250C79E900672B0F /* 5.Bowling Score */,
+				484321DE250C79F600672B0F /* 6.Turtle */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -161,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48BF3A312503466E003A9B84 /* sequence.cpp in Sources */,
+				484321ED250C944800672B0F /* turtle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

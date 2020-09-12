@@ -36,7 +36,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/hogbal/Desktop/coding/algorithm/algorithm/3.Finding Card Sequence"
+      customWorkingDirectory = "/Users/hogbal/Desktop/coding/algorithm/algorithm/6.Turtle"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
