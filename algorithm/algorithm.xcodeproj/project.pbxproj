@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		484321ED250C944800672B0F /* turtle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 484321EC250C944800672B0F /* turtle.cpp */; };
+		48D819D02514D561000018DA /* bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48D819CF2514D561000018DA /* bitmap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +42,12 @@
 		48BF3A302503466E003A9B84 /* sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sequence.cpp; sourceTree = "<group>"; };
 		48BF3A3225034680003A9B84 /* sequence.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = sequence.inp; sourceTree = "<group>"; };
 		48BF3A3325034687003A9B84 /* sequence.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sequence.out; sourceTree = "<group>"; };
+		48D819C62514CE57000018DA /* fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fibonacci.cpp; sourceTree = "<group>"; };
+		48D819CA2514CE62000018DA /* fibonacci.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = fibonacci.inp; sourceTree = "<group>"; };
+		48D819CB2514CE6B000018DA /* fibonacci.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = fibonacci.out; sourceTree = "<group>"; };
+		48D819CF2514D561000018DA /* bitmap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bitmap.cpp; sourceTree = "<group>"; };
+		48D819D32514D56E000018DA /* bitmap.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = bitmap.inp; sourceTree = "<group>"; };
+		48D819D42514D578000018DA /* bitmap.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = bitmap.out; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,8 @@
 				484321E3250C7AB300672B0F /* 4.산술연산 */,
 				484321DD250C79E900672B0F /* 5.Bowling Score */,
 				484321DE250C79F600672B0F /* 6.Turtle */,
+				48D819C52514CE2A000018DA /* 7.Big Fibonacci */,
+				48D819CE2514D4EB000018DA /* 8.Bitmap */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -144,6 +152,26 @@
 				48BF3A3325034687003A9B84 /* sequence.out */,
 			);
 			path = "3.Finding Card Sequence";
+			sourceTree = "<group>";
+		};
+		48D819C52514CE2A000018DA /* 7.Big Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				48D819C62514CE57000018DA /* fibonacci.cpp */,
+				48D819CA2514CE62000018DA /* fibonacci.inp */,
+				48D819CB2514CE6B000018DA /* fibonacci.out */,
+			);
+			path = "7.Big Fibonacci";
+			sourceTree = "<group>";
+		};
+		48D819CE2514D4EB000018DA /* 8.Bitmap */ = {
+			isa = PBXGroup;
+			children = (
+				48D819CF2514D561000018DA /* bitmap.cpp */,
+				48D819D32514D56E000018DA /* bitmap.inp */,
+				48D819D42514D578000018DA /* bitmap.out */,
+			);
+			path = 8.Bitmap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				484321ED250C944800672B0F /* turtle.cpp in Sources */,
+				48D819D02514D561000018DA /* bitmap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

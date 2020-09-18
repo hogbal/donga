@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "form_D(int, int):bitmap.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "st[index]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "form_B(int, int):bitmap.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "bitmap_all">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
