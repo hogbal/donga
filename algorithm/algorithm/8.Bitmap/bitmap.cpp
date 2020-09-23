@@ -1,224 +1,150 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
 #include <string>
 using namespace std;
 
 ifstream inp("bitmap.inp");
 ofstream out("bitmap.out");
 
-/*
- form_B 재귀함수 이용 행렬의 크기가 2 or 4일때 출력 => 시간초과 걱정...?
- form_D 반복문으로 해결될듯
- */
+int output_count;
 
-void form_B(int V, int H){
-    out << "D " << V << " " << H << endl;
-    
-    vector<vector<int> > bitmap_all;
-    bitmap_all.resize(V);
-    int sum = 0;
-    for(int i=0;i<V;i++) {
-        for(int j=0;j<H;j++) {
-            char temp;
-            inp >> temp;
-            sum += temp-'0';
-            bitmap_all[i].push_back(temp-'0');
+void output_check(){
+    output_count++;
+    if(output_count == 50) {
+        out << endl;
+        output_count = 0;
+    }
+}
+
+void form_input_B(int *mat, int V, int H, int *sum){
+    for(int i=0;i<V*H;i++) {
+        char temp;
+        temp = inp.get();
+        if(temp == ' ') break;
+        else if(temp == '\n') {
+            i--;
+            continue;
+        }
+        else {
+            mat[i] = temp-'0';
+            *sum += mat[i];
         }
     }
-    if(sum == 0) {
-        out << '0' << endl;
+}
+
+void form_B(int *mat, int sum, int V, int H){
+    if(sum == V*H || sum == 0) {   //전체를 보고 1인지 0인지 확인
+        out << mat[0];
+        output_check();
     }
-    else if(sum == V*H) {
-        out << '1' << endl;
+    else if(V == 1 || H == 1) {
+        out << 'D';
+        output_check();
+        for(int i=0;i<V*H;i++) {
+            out << mat[i];
+            output_check();
+        }
     }
     else {
         out << 'D';
+        output_check();
         
-        int i_max,j_max;
-        int size[4];
-        if(V % 2 == 1 && H % 2 == 1) {
-            size[0] = (H/2+1) * (V/2+1); size[1] = (H/2) * (V/2+1);
-            size[2] = (H/2+1) * (V/2); size[3] = (H/2) * (V/2);
-            
-            i_max = V/2+1;
-            j_max = H/2;
-        }
-        else if(V % 2 == 1) {
-            size[0] = (H/2) * (V/2+1); size[1] = (H/2) * (V/2+1);
-            size[2] = (H/2) * (V/2); size[3] = (H/2) * (V/2);
-            
-            i_max = V/2+1;
-            j_max = H/2;
-        }
-        else if(H % 2 == 1) {
-            size[0] = (H/2+1) * (V/2); size[1] = (H/2) * (V/2);
-            size[2] = (H/2+1) * (V/2); size[3] = (H/2) * (V/2);
-            
-            i_max = V/2;
-            j_max = H/2+1;
-        }
-        else {
-            size[0] = V*H/4; size[1] = V*H/4;
-            size[2] = V*H/4; size[3] = V*H/4;
-            
-            i_max = V/2;
-            j_max = H/2;
+        int *mat_div[4];
+        int V_temp[4], H_temp[4];
+                    
+        for(int i=0;i<4;i++) {
+            V_temp[i] = V/2;
+            H_temp[i] = H/2;
         }
         
-        vector<int> v[4];
+        if(V%2==1 && H%2==1) {
+            V_temp[0] += 1; H_temp[0] += 1;
+            V_temp[1] += 1;
+            H_temp[2] += 1;
+        }
+        else if(V%2==1) {
+            V_temp[0] += 1;
+            V_temp[1] += 1;
+        }
+        else if(H%2==1) {
+            H_temp[0] += 1;
+            H_temp[2] += 1;
+        }
+        
+        for(int i=0;i<4;i++) {
+            mat_div[i] = new int[V_temp[i]*H_temp[i]];
+        }
+        int index1 = 0, index2 = 0, index3 = 0, index4 = 0;
         int sum1 = 0, sum2 = 0, sum3 = 0, sum4 = 0;
         
         for(int i=0;i<V;i++) {
             for(int j=0;j<H;j++) {
-                if(i >= i_max && j >= j_max) {
-                    v[3].push_back(bitmap_all[i][j]);
-                    sum4 += bitmap_all[i][j];
+                if(i<((V/2) + (V%2))) { //1,2사분면
+                    if(j<((H/2) + (H%2))) { //1사분면
+                        mat_div[0][index1] = mat[i*H+j];
+                        sum1 += mat[i*H+j];
+                        index1++;
+                    }
+                    else {  //2사분면
+                        mat_div[1][index2] = mat[i*H+j];
+                        sum2 += mat[i*H+j];
+                        index2++;
+                    }
                 }
-                else if(i >= i_max) {
-                    v[2].push_back(bitmap_all[i][j]);
-                    sum3 += bitmap_all[i][j];
-                }
-                else if(j >= j_max) {
-                    v[1].push_back(bitmap_all[i][j]);
-                    sum2 += bitmap_all[i][j];
-                }
-                else {
-                    v[0].push_back(bitmap_all[i][j]);
-                    sum1 += bitmap_all[i][j];
+                else {  //3,4사분면
+                    if(j<((H/2) + (H%2))) { //3사분면
+                        mat_div[2][index3] = mat[i*H+j];
+                        sum3 += mat[i*H+j];
+                        index3++;
+                    }
+                    else {  //4사분면
+                        mat_div[3][index4] = mat[i*H+j];
+                        sum4 += mat[i*H+j];
+                        index4++;
+                    }
                 }
             }
         }
         
-        if(size[0] == sum1 || sum1 == 0) { out << v[0][0]; }
-        else {
-            out << 'D';
-            for(int i=0;i<size[0];i++) { out << v[0][i]; }
-        }
-        
-        if(size[1] == sum2 || sum2 == 0) { out << v[1][0]; }
-        else {
-            out << 'D';
-            for(int i=0;i<size[1];i++) { out << v[1][i]; }
-        }
-        
-        if(size[2] == sum3 || sum3 == 0) { out << v[2][0]; }
-        else {
-            out << 'D';
-            for(int i=0;i<size[2];i++) { out << v[2][i]; }
-        }
-        
-        if(size[3] == sum4 || sum4 == 0) { out << v[3][0]; }
-        else {
-            out << 'D';
-            for(int i=0;i<size[3];i++) { out << v[3][i]; }
-        }
-        out << endl;
+        form_B(mat_div[0],sum1,V_temp[0],H_temp[0]);
+        form_B(mat_div[1],sum2,V_temp[1],H_temp[1]);
+        form_B(mat_div[2],sum3,V_temp[2],H_temp[2]);
+        form_B(mat_div[3],sum4,V_temp[3],H_temp[3]);
     }
 }
 
-void form_D(int V, int H) {
-    out << "B " << V << " " << H << endl;
-    string st;
-    inp >> st;
-    if(st[0] == '1' || st[0] == '0') {
-        for(int i=0;i<V*H;i++) {
-            out << st[0];
-        }
-        out << endl;
-    }
-    else {
-        int i_max,j_max;
-        int size[4];
-        if(V % 2 == 1 && H % 2 == 1) {
-            size[0] = (H/2+1) * (V/2+1); size[1] = (H/2) * (V/2+1);
-            size[2] = (H/2+1) * (V/2); size[3] = (H/2) * (V/2);
-            
-            i_max = V/2+1;
-            j_max = H/2;
-        }
-        else if(V % 2 == 1) {
-            size[0] = (H/2) * (V/2+1); size[1] = (H/2) * (V/2+1);
-            size[2] = (H/2) * (V/2); size[3] = (H/2) * (V/2);
-            
-            i_max = V/2+1;
-            j_max = H/2;
-        }
-        else if(H % 2 == 1) {
-            size[0] = (H/2+1) * (V/2); size[1] = (H/2) * (V/2);
-            size[2] = (H/2+1) * (V/2); size[3] = (H/2) * (V/2);
-            
-            i_max = V/2;
-            j_max = H/2+1;
-        }
-        else {
-            size[0] = V*H/4; size[1] = V*H/4;
-            size[2] = V*H/4; size[3] = V*H/4;
-            
-            i_max = V/2;
-            j_max = H/2;
-        }
-        
-        vector<int> v[4];
-        
-        int index = 1;
-        for(int i=0;i<4;i++) {
-            if(st[index] == 'D') {
-                index++;
-                for(int j=0;j<size[i];j++) {
-                    v[i].push_back(st[index]-'0');
-                    index++;
-                }
-            }
-            else {
-                for(int j=0;j<size[i];j++) {
-                    v[i].push_back(st[index]-'0');
-                }
-                index++;
-            }
-        }
-        
-        int out_index[4];
-        for(int i=0;i<4;i++) { out_index[i] = 0; }
-        
-        for(int i=0;i<V;i++) {
-            for(int j=0;j<H;j++) {
-                if(i >= i_max && j >= j_max) {
-                    out << v[3][out_index[3]];
-                    out_index[3]++;
-                }
-                else if(i >= i_max) {
-                    out << v[2][out_index[2]];
-                    out_index[2]++;
-                }
-                else if(j >= j_max) {
-                    out << v[1][out_index[1]];
-                    out_index[1]++;
-                }
-                else {
-                    out << v[0][out_index[0]];
-                    out_index[0]++;
-                }
-            }
-        }
-        out << endl;
-    }
-}
-
-int main(void){
-    char form;
-    int H,V;
+void form_D(){
     
-    do {
-        inp >> form;
+}
+
+int main(void) {
+    int V,H;
+    char form;
+    string st;
+    
+    inp >> form;
+    
+    while(1){
         if(form == '#') break;
-        if(form == 'B') {
+        else if(form == 'B') {
+            output_count = 0;
+            
             inp >> V >> H;
-            form_B(V,H);
+            int *mat = new int[V*H];
+            int sum = 0;
+            form_input_B(mat,V,H,&sum);
+            
+            out << 'D' << ' ' << V << ' ' << H << endl;
+            form_B(mat,sum,V,H);
+            inp >> form;
         }
         else {
             inp >> V >> H;
-            form_D(V,H);
+            //st = form_input(&form);
+            
+            break;
+            form_D();
         }
-    }while(form != '#');
+        out << endl;
+    }
 }

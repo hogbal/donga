@@ -18,5 +18,13 @@
             </PersistentString>
          </PersistentStrings>
       </ContextState>
+      <ContextState
+         contextName = "form_B(Matrix):bitmap.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "i*mat.H+j">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
    </ContextStates>
 </VariablesViewState>
