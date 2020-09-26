@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		484776C2251E366500EE19AB /* cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 484776C1251E366500EE19AB /* cube.cpp */; };
+		48AFA70A251F7FF400869E52 /* palindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48AFA709251F7FF400869E52 /* palindrome.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +45,9 @@
 		484776C5251E367000EE19AB /* cube.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = cube.inp; sourceTree = "<group>"; };
 		484776C6251E367E00EE19AB /* cube.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = cube.out; sourceTree = "<group>"; };
 		48715CEB24C84FE40065D0E1 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AFA709251F7FF400869E52 /* palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palindrome.cpp; sourceTree = "<group>"; };
+		48AFA70D251F800000869E52 /* palindrome.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = palindrome.inp; sourceTree = "<group>"; };
+		48AFA70E251F800A00869E52 /* palindrome.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = palindrome.out; sourceTree = "<group>"; };
 		48BF3A302503466E003A9B84 /* sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sequence.cpp; sourceTree = "<group>"; };
 		48BF3A3225034680003A9B84 /* sequence.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = sequence.inp; sourceTree = "<group>"; };
 		48BF3A3325034687003A9B84 /* sequence.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sequence.out; sourceTree = "<group>"; };
@@ -169,8 +172,19 @@
 				48D819CE2514D4EB000018DA /* 8.Bitmap */,
 				481DB856251B2F1A002B11DD /* 9.직각다각형 */,
 				484776C0251E35F800EE19AB /* 10.Cube Painting */,
+				48AFA708251F7FBE00869E52 /* 11. Palindrome */,
 			);
 			path = algorithm;
+			sourceTree = "<group>";
+		};
+		48AFA708251F7FBE00869E52 /* 11. Palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				48AFA709251F7FF400869E52 /* palindrome.cpp */,
+				48AFA70D251F800000869E52 /* palindrome.inp */,
+				48AFA70E251F800A00869E52 /* palindrome.out */,
+			);
+			path = "11. Palindrome";
 			sourceTree = "<group>";
 		};
 		48BF3A2F25034640003A9B84 /* 3.Finding Card Sequence */ = {
@@ -260,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				484776C2251E366500EE19AB /* cube.cpp in Sources */,
+				48AFA70A251F7FF400869E52 /* palindrome.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

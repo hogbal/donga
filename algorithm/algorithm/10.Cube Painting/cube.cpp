@@ -7,39 +7,7 @@ ifstream inp("cube.inp");
 ofstream out("cube.out");
 
 void change_top(string &dice, int num, string dice_save) {
-    if(num == 0) {
-        return;
-    }
-    else if(num == 1){
-        dice[0] = dice_save[1];
-        dice[1] = dice_save[5];
-        dice[5] = dice_save[4];
-        dice[4] = dice_save[0];
-    }
-    else if(num == 2) {
-        dice[0] = dice_save[2];
-        dice[2] = dice_save[5];
-        dice[5] = dice_save[3];
-        dice[3] = dice_save[0];
-    }
-    else if(num == 3) {
-        dice[0] = dice_save[3];
-        dice[3] = dice_save[5];
-        dice[5] = dice_save[2];
-        dice[2] = dice_save[0];
-    }
-    else if(num == 4) {
-        dice[0] = dice_save[4];
-        dice[4] = dice_save[5];
-        dice[5] = dice_save[1];
-        dice[1] = dice_save[0];
-    }
-    else if(num == 5) {
-        dice[0] = dice_save[5];
-        dice[5] = dice_save[0];
-        dice[1] = dice_save[4];
-        dice[4] = dice_save[1];
-    }
+    
 }
 
 void rotation(string &dice) {
