@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48AFA70A251F7FF400869E52 /* palindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48AFA709251F7FF400869E52 /* palindrome.cpp */; };
+		48020A22251F91B000A08F1A /* cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 484776C1251E366500EE19AB /* cube.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48AFA70A251F7FF400869E52 /* palindrome.cpp in Sources */,
+				48020A22251F91B000A08F1A /* cube.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
