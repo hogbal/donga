@@ -3,10 +3,62 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "form_B(int, int):bitmap.cpp">
+         contextName = "form_B(Matrix):bitmap.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "bitmap_all">
+               value = "i*mat.H+j">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "compare_arr(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int):polygon.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "v1[i]">
+            </PersistentString>
+            <PersistentString
+               value = "v2[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "card_DP(int, int, int):card.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "arr[index]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "out_stack(Edge**, int, int, int):path.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "e[index_i][index_j-1].cost[k]">
+            </PersistentString>
+            <PersistentString
+               value = "e[index_i-1][index_j].cost[k]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "form_D(int, int):bitmap.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "st[index]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "palindrome():palindrome.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "mat[i][j]">
+            </PersistentString>
+            <PersistentString
+               value = "st2[j-1]">
+            </PersistentString>
+            <PersistentString
+               value = "st1[i-1]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -15,14 +67,6 @@
          <PersistentStrings>
             <PersistentString
                value = "bitmap">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "form_D(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, int*, int, int, int, int, int):bitmap.cpp">
-         <PersistentStrings>
-            <PersistentString
-               value = "start+(i*H+j)">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -46,13 +90,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "compare(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int):polygon.cpp">
-      </ContextState>
-      <ContextState
-         contextName = "polygon(int):polygon.cpp">
+         contextName = "output_path(Edge**, std::__1::vector&lt;std::__1::pair&lt;int, int&gt;, std::__1::allocator&lt;std::__1::pair&lt;int, int&gt; &gt; &gt;, int, int, int, int, int):path.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "kmp(v3,v2)">
+               value = "result_v">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -65,27 +106,18 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "compare_arr(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int):polygon.cpp">
+         contextName = "form_B(int, int):bitmap.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "v1[i]">
-            </PersistentString>
-            <PersistentString
-               value = "v2[i]">
+               value = "bitmap_all">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "palindrome():palindrome.cpp">
+         contextName = "card_DP(int, int):card.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "mat[i][j]">
-            </PersistentString>
-            <PersistentString
-               value = "st2[j-1]">
-            </PersistentString>
-            <PersistentString
-               value = "st1[i-1]">
+               value = "arr[index]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -93,20 +125,59 @@
          contextName = "kmp(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;):polygon.cpp">
       </ContextState>
       <ContextState
-         contextName = "form_B(Matrix):bitmap.cpp">
+         contextName = "case_cal(Edge**, int, int, int):path.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "i*mat.H+j">
+               value = "e[index_i][index_j].num_case[i]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "form_D(int, int):bitmap.cpp">
+         contextName = "compare(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int):polygon.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "polygon(int):polygon.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "st[index]">
+               value = "kmp(v3,v2)">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "card_DP(int, int, bool):card.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "arr[index]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "form_D(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, int*, int, int, int, int, int):bitmap.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "start+(i*H+j)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "card():card.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "card[i]">
+            </PersistentString>
+            <PersistentString
+               value = "card[i-3]">
+            </PersistentString>
+            <PersistentString
+               value = "card[i-4]">
+            </PersistentString>
+            <PersistentString
+               value = "card[i-2]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "output_path(Edge**, std::__1::vector&lt;std::__1::pair&lt;int, int&gt;, std::__1::allocator&lt;std::__1::pair&lt;int, int&gt; &gt; &gt;, int, int, int, int):path.cpp">
       </ContextState>
    </ContextStates>
 </VariablesViewState>
