@@ -49,16 +49,31 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "palindrome():palindrome.cpp">
+         contextName = "addingways(int):addingways.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "mat[i][j]">
+               value = "arr_case[2]">
             </PersistentString>
             <PersistentString
-               value = "st2[j-1]">
+               value = "arr_case[3]">
             </PersistentString>
             <PersistentString
-               value = "st1[i-1]">
+               value = "arr_case[4]">
+            </PersistentString>
+            <PersistentString
+               value = "arr_case[5]">
+            </PersistentString>
+            <PersistentString
+               value = "arr_case[6]">
+            </PersistentString>
+            <PersistentString
+               value = "arr_case[0]">
+            </PersistentString>
+            <PersistentString
+               value = "arr_case[7]">
+            </PersistentString>
+            <PersistentString
+               value = "arr_case[1]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -90,10 +105,35 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "palindrome():palindrome.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "mat[i][j]">
+            </PersistentString>
+            <PersistentString
+               value = "st2[j-1]">
+            </PersistentString>
+            <PersistentString
+               value = "st1[i-1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "output_path(Edge**, std::__1::vector&lt;std::__1::pair&lt;int, int&gt;, std::__1::allocator&lt;std::__1::pair&lt;int, int&gt; &gt; &gt;, int, int, int, int, int):path.cpp">
          <PersistentStrings>
             <PersistentString
                value = "result_v">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "path(int, int, int):path.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "i">
+            </PersistentString>
+            <PersistentString
+               value = "j">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -114,10 +154,28 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "card_DP(int, int):card.cpp">
+         contextName = "main:addingways.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "arr[index]">
+               value = "arr_case[6]">
+            </PersistentString>
+            <PersistentString
+               value = "arr_case[1]">
+            </PersistentString>
+            <PersistentString
+               value = "arr_case[3]">
+            </PersistentString>
+            <PersistentString
+               value = "arr_case[5]">
+            </PersistentString>
+            <PersistentString
+               value = "arr_case[7]">
+            </PersistentString>
+            <PersistentString
+               value = "arr_case[2]">
+            </PersistentString>
+            <PersistentString
+               value = "arr_case[4]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -130,7 +188,26 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "card_DP(int, int):card.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "arr[index]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "kmp(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;):polygon.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "path_Output(int, int, int):path.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "grid[index_i][index_j].result[k_temp]">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "case_cal(Edge**, int, int, int):path.cpp">
@@ -160,6 +237,17 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "stickers(int**, int):stickers.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "arr_max[0][i]">
+            </PersistentString>
+            <PersistentString
+               value = "arr_max[1][i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "form_D(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, int*, int, int, int, int, int):bitmap.cpp">
          <PersistentStrings>
             <PersistentString
@@ -171,7 +259,7 @@
          contextName = "card():card.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "card[i-2]">
+               value = "card[i]">
             </PersistentString>
             <PersistentString
                value = "card[i-3]">
@@ -180,7 +268,7 @@
                value = "card[i-4]">
             </PersistentString>
             <PersistentString
-               value = "card[i]">
+               value = "card[i-2]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
