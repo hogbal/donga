@@ -154,6 +154,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "coin_cal():coin.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "play_count[i][j][k]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "main:addingways.cpp">
          <PersistentStrings>
             <PersistentString
@@ -240,10 +248,10 @@
          contextName = "stickers(int**, int):stickers.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "arr_max[0][i]">
+               value = "arr_max[1][i]">
             </PersistentString>
             <PersistentString
-               value = "arr_max[1][i]">
+               value = "arr_max[0][i]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -259,7 +267,7 @@
          contextName = "card():card.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "card[i]">
+               value = "card[i-2]">
             </PersistentString>
             <PersistentString
                value = "card[i-3]">
@@ -268,7 +276,7 @@
                value = "card[i-4]">
             </PersistentString>
             <PersistentString
-               value = "card[i-2]">
+               value = "card[i]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
