@@ -105,6 +105,22 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "coin_cal():coin.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "play_count[i][j][k]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "output_path(Edge**, std::__1::vector&lt;std::__1::pair&lt;int, int&gt;, std::__1::allocator&lt;std::__1::pair&lt;int, int&gt; &gt; &gt;, int, int, int, int, int):path.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "result_v">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "palindrome():palindrome.cpp">
          <PersistentStrings>
             <PersistentString
@@ -115,14 +131,6 @@
             </PersistentString>
             <PersistentString
                value = "st1[i-1]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "output_path(Edge**, std::__1::vector&lt;std::__1::pair&lt;int, int&gt;, std::__1::allocator&lt;std::__1::pair&lt;int, int&gt; &gt; &gt;, int, int, int, int, int):path.cpp">
-         <PersistentStrings>
-            <PersistentString
-               value = "result_v">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -138,14 +146,6 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "convert(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int):polygon.cpp">
-         <PersistentStrings>
-            <PersistentString
-               value = "v2[i]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "form_B(int, int):bitmap.cpp">
          <PersistentStrings>
             <PersistentString
@@ -154,10 +154,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "coin_cal():coin.cpp">
+         contextName = "convert(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int):polygon.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "play_count[i][j][k]">
+               value = "v2[i]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -207,6 +207,23 @@
          contextName = "kmp(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;):polygon.cpp">
       </ContextState>
       <ContextState
+         contextName = "addingways():addingways.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "arr[i-j][k_temp]">
+            </PersistentString>
+            <PersistentString
+               value = "i-j">
+            </PersistentString>
+            <PersistentString
+               value = "arr[i][j]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "path_Output(int, int, int):path.cpp">
          <PersistentStrings>
             <PersistentString
@@ -248,10 +265,10 @@
          contextName = "stickers(int**, int):stickers.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "arr_max[1][i]">
+               value = "arr_max[0][i]">
             </PersistentString>
             <PersistentString
-               value = "arr_max[0][i]">
+               value = "arr_max[1][i]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -267,7 +284,7 @@
          contextName = "card():card.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "card[i-2]">
+               value = "card[i]">
             </PersistentString>
             <PersistentString
                value = "card[i-3]">
@@ -276,7 +293,7 @@
                value = "card[i-4]">
             </PersistentString>
             <PersistentString
-               value = "card[i]">
+               value = "card[i-2]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
