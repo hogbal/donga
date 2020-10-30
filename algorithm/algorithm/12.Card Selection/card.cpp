@@ -50,7 +50,7 @@ void card(){
         inp >> card[i].value;
         card[i].max = 0;
     }
-    3
+    
     for(int i=0;i<size;i++) {
         if(i<3) {
             card[i].max = card[i].value;

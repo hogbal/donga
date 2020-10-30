@@ -86,10 +86,13 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "form_B(int*, int, int, int):bitmap.cpp">
+         contextName = "coin_cal():coin.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "V">
+               value = "play_count[i][j][k]">
+            </PersistentString>
+            <PersistentString
+               value = "coin_count[i][j][k]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -105,10 +108,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "coin_cal():coin.cpp">
+         contextName = "form_B(int*, int, int, int):bitmap.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "play_count[i][j][k]">
+               value = "V">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -162,6 +165,31 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "cube_cal():cube.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "cube[cube_W][cube_L][cube_H]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "addingways():addingways.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "arr[i-j][k_temp]">
+            </PersistentString>
+            <PersistentString
+               value = "i-j">
+            </PersistentString>
+            <PersistentString
+               value = "arr[i][j]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "main:addingways.cpp">
          <PersistentStrings>
             <PersistentString
@@ -196,30 +224,13 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "kmp(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;):polygon.cpp">
+      </ContextState>
+      <ContextState
          contextName = "card_DP(int, int):card.cpp">
          <PersistentStrings>
             <PersistentString
                value = "arr[index]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "kmp(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;):polygon.cpp">
-      </ContextState>
-      <ContextState
-         contextName = "addingways():addingways.cpp">
-         <PersistentStrings>
-            <PersistentString
-               value = "">
-            </PersistentString>
-            <PersistentString
-               value = "arr[i-j][k_temp]">
-            </PersistentString>
-            <PersistentString
-               value = "i-j">
-            </PersistentString>
-            <PersistentString
-               value = "arr[i][j]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -269,6 +280,14 @@
             </PersistentString>
             <PersistentString
                value = "arr_max[1][i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:cube.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "cube">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
