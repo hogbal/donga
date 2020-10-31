@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48562891254AD02B00C90DE6 /* coin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48562890254AD02B00C90DE6 /* coin.cpp */; };
+		48ECDDCF254CB31500EC88A6 /* balloon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48ECDDCE254CB31500EC88A6 /* balloon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -78,6 +78,9 @@
 		48D819CF2514D561000018DA /* bitmap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bitmap.cpp; sourceTree = "<group>"; };
 		48D819D32514D56E000018DA /* bitmap.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = bitmap.inp; sourceTree = "<group>"; };
 		48D819D42514D578000018DA /* bitmap.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = bitmap.out; sourceTree = "<group>"; };
+		48ECDDCE254CB31500EC88A6 /* balloon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = balloon.cpp; sourceTree = "<group>"; };
+		48ECDDD2254CB32100EC88A6 /* balloon.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = balloon.inp; sourceTree = "<group>"; };
+		48ECDDD3254CB32B00EC88A6 /* balloon.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = balloon.out; sourceTree = "<group>"; };
 		48FE1D29253410D70083EC24 /* addingways.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = addingways.cpp; sourceTree = "<group>"; };
 		48FE1D2D2534117D0083EC24 /* addingways.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = addingways.inp; sourceTree = "<group>"; };
 		48FE1D2E253411860083EC24 /* addingways.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = addingways.out; sourceTree = "<group>"; };
@@ -225,6 +228,7 @@
 				48FE1D28253410AB0083EC24 /* 17. Stikers */,
 				48AFA7BD254AC04D009D8B7E /* 18. 정육면체 자르기 */,
 				4856288F254AD00700C90DE6 /* 19. Coin Game 2 */,
+				48ECDDCD254CB2FA00EC88A6 /* 20. 풍선터뜨리기 */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -299,6 +303,16 @@
 				48D819D42514D578000018DA /* bitmap.out */,
 			);
 			path = 8.Bitmap;
+			sourceTree = "<group>";
+		};
+		48ECDDCD254CB2FA00EC88A6 /* 20. 풍선터뜨리기 */ = {
+			isa = PBXGroup;
+			children = (
+				48ECDDCE254CB31500EC88A6 /* balloon.cpp */,
+				48ECDDD2254CB32100EC88A6 /* balloon.inp */,
+				48ECDDD3254CB32B00EC88A6 /* balloon.out */,
+			);
+			path = "20. 풍선터뜨리기";
 			sourceTree = "<group>";
 		};
 		48FE1D262534108F0083EC24 /* 15.Adding Ways */ = {
@@ -388,7 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48562891254AD02B00C90DE6 /* coin.cpp in Sources */,
+				48ECDDCF254CB31500EC88A6 /* balloon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
