@@ -20,21 +20,5 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "09094729-24B2-4D5A-B5A7-664E8DE58C5C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "algorithm/22. &#x1107;&#x1175;&#x1106;&#x1175;&#x11af;&#x110c;&#x1165;&#x11b8;&#x1109;&#x1165;&#x11ab;/contact.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "contact()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

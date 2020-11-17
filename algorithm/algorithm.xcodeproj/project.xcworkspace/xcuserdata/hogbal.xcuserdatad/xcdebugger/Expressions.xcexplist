@@ -9,7 +9,7 @@
          contextName = "card():card.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "card[i]">
+               value = "card[i-2]">
             </PersistentString>
             <PersistentString
                value = "card[i-3]">
@@ -18,7 +18,7 @@
                value = "card[i-4]">
             </PersistentString>
             <PersistentString
-               value = "card[i-2]">
+               value = "card[i]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -193,13 +193,21 @@
          contextName = "output_path(Edge**, std::__1::vector&lt;std::__1::pair&lt;int, int&gt;, std::__1::allocator&lt;std::__1::pair&lt;int, int&gt; &gt; &gt;, int, int, int, int):path.cpp">
       </ContextState>
       <ContextState
+         contextName = "Prim(int):mst.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "ev[u]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "stickers(int**, int):stickers.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "arr_max[0][i]">
+               value = "arr_max[1][i]">
             </PersistentString>
             <PersistentString
-               value = "arr_max[1][i]">
+               value = "arr_max[0][i]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
