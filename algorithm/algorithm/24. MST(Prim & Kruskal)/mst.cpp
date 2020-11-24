@@ -98,28 +98,24 @@ void Prim(int start_node){
     for(int i=0;i<V;i++) {
         int u = -1;
         for(int v=0;v<V;v++) {
-            if(!added[v] && (u == -1 || minw[u] >= minw[v])) {
-                if(minw[u] != minw[v]) {
+            if(!added[v] && (u == -1 || minw[u] > minw[v])) {
+                u = v;
+            }
+            else if(!added[v] && ( u != -1 && minw[u] == minw[v])) {
+                if(node_index[u] > node_index[v]) {
                     u = v;
-                }
-                else {
-                    if(node_index[u] > node_index[v]) {
-                        u = v;
-                    }
                 }
             }
         }
         
         if(parent[u] != u) {
             selected.push_back(make_pair(parent[u], u));
+            num[index] = node_index[u];
+            index++;
         }
         
         ret += minw[u];
         added[u] = true;
-        if(node_index[u] != -1) {
-            num[index] = node_index[u];
-            index++;
-        }
         
         for(int j=0;j<ev[u].size();j++) {
             int v = ev[u][j].v, w = ev[u][j].w;
@@ -152,6 +148,7 @@ int main(void) {
         temp.index = i;
         ev[u].push_back(temp);
         temp.v = u;
+        temp.u = v;
         ev[v].push_back(temp);
     }
     Kruskal();
