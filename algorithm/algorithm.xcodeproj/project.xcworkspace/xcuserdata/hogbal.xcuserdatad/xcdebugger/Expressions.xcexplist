@@ -87,6 +87,17 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "trip():trip.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "result">
+            </PersistentString>
+            <PersistentString
+               value = "p[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "form_B(int, int):bitmap.cpp">
          <PersistentStrings>
             <PersistentString
@@ -152,6 +163,17 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "sum_of_subset(int, int, int):sum.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "num[i+1]">
+            </PersistentString>
+            <PersistentString
+               value = "rev_num[i+1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "output_path(Edge**, std::__1::vector&lt;std::__1::pair&lt;int, int&gt;, std::__1::allocator&lt;std::__1::pair&lt;int, int&gt; &gt; &gt;, int, int, int, int, int):path.cpp">
          <PersistentStrings>
             <PersistentString
@@ -210,6 +232,9 @@
                value = "arr_max[0][i]">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "distance():distance.cpp">
       </ContextState>
       <ContextState
          contextName = "convert(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt; &gt;&amp;, int):polygon.cpp">

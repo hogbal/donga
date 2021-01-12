@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4879F07D2568F5AA00ED9802 /* rectangles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4879F07C2568F5AA00ED9802 /* rectangles.cpp */; };
+		48A9EBBD257E05F600DF713C /* trip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48A9EBBC257E05F600DF713C /* trip.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +56,12 @@
 		484776C1251E366500EE19AB /* cube.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cube.cpp; sourceTree = "<group>"; };
 		484776C5251E367000EE19AB /* cube.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = cube.inp; sourceTree = "<group>"; };
 		484776C6251E367E00EE19AB /* cube.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = cube.out; sourceTree = "<group>"; };
+		484B790E2571EDED00FD9239 /* watertank.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = watertank.cpp; sourceTree = "<group>"; };
+		484B79122571EDFC00FD9239 /* watertank.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = watertank.inp; sourceTree = "<group>"; };
+		484B79132571EE0300FD9239 /* watertank.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = watertank.out; sourceTree = "<group>"; };
+		484B7915257201DF00FD9239 /* sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sum.cpp; sourceTree = "<group>"; };
+		484B79182572025A00FD9239 /* sum.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = sum.inp; sourceTree = "<group>"; };
+		484B79192572026600FD9239 /* sum.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sum.out; sourceTree = "<group>"; };
 		48562890254AD02B00C90DE6 /* coin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = coin.cpp; sourceTree = "<group>"; };
 		48562894254AD03800C90DE6 /* coin.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = coin.inp; sourceTree = "<group>"; };
 		48562895254AD04000C90DE6 /* coin.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = coin.out; sourceTree = "<group>"; };
@@ -72,6 +78,15 @@
 		489CABA12534A44B007E054D /* coin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = coin.cpp; sourceTree = "<group>"; };
 		489CABA42534A455007E054D /* coin.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = coin.inp; sourceTree = "<group>"; };
 		489CABA52534A45D007E054D /* coin.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = coin.out; sourceTree = "<group>"; };
+		48A9EBAE257DFC9400DF713C /* abbb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = abbb.cpp; sourceTree = "<group>"; };
+		48A9EBB2257DFC9D00DF713C /* abbb.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = abbb.inp; sourceTree = "<group>"; };
+		48A9EBB3257DFCA600DF713C /* abbb.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = abbb.out; sourceTree = "<group>"; };
+		48A9EBB5257E009800DF713C /* distance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = distance.cpp; sourceTree = "<group>"; };
+		48A9EBB8257E00A100DF713C /* distance.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = distance.inp; sourceTree = "<group>"; };
+		48A9EBB9257E00AB00DF713C /* distance.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = distance.out; sourceTree = "<group>"; };
+		48A9EBBC257E05F600DF713C /* trip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = trip.cpp; sourceTree = "<group>"; };
+		48A9EBBF257E05FD00DF713C /* trip.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = trip.inp; sourceTree = "<group>"; };
+		48A9EBC0257E060300DF713C /* trip.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = trip.out; sourceTree = "<group>"; };
 		48AFA709251F7FF400869E52 /* palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palindrome.cpp; sourceTree = "<group>"; };
 		48AFA70D251F800000869E52 /* palindrome.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = palindrome.inp; sourceTree = "<group>"; };
 		48AFA70E251F800A00869E52 /* palindrome.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = palindrome.out; sourceTree = "<group>"; };
@@ -87,6 +102,12 @@
 		48C371922526F0C90035B619 /* path.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = path.cpp; sourceTree = "<group>"; };
 		48C371972526F0E40035B619 /* path.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = path.inp; sourceTree = "<group>"; };
 		48C371982526F0EE0035B619 /* path.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = path.out; sourceTree = "<group>"; };
+		48D7F369257B43FD00CD9A37 /* palindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palindrome.cpp; sourceTree = "<group>"; };
+		48D7F36E257B441000CD9A37 /* palindrome.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = palindrome.inp; sourceTree = "<group>"; };
+		48D7F370257B441B00CD9A37 /* palindrome.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = palindrome.out; sourceTree = "<group>"; };
+		48D7F377257B476B00CD9A37 /* numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numbers.cpp; sourceTree = "<group>"; };
+		48D7F37A257B477400CD9A37 /* numbers.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = numbers.inp; sourceTree = "<group>"; };
+		48D7F37B257B477C00CD9A37 /* numbers.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = numbers.out; sourceTree = "<group>"; };
 		48D819C62514CE57000018DA /* fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fibonacci.cpp; sourceTree = "<group>"; };
 		48D819CA2514CE62000018DA /* fibonacci.inp */ = {isa = PBXFileReference; lastKnownFileType = text; path = fibonacci.inp; sourceTree = "<group>"; };
 		48D819CB2514CE6B000018DA /* fibonacci.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = fibonacci.out; sourceTree = "<group>"; };
@@ -229,6 +250,33 @@
 			path = "10.Cube Painting";
 			sourceTree = "<group>";
 		};
+		484B790B2571EDC700FD9239 /* 27. Freelancer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "27. Freelancer";
+			sourceTree = "<group>";
+		};
+		484B790C2571EDCA00FD9239 /* 28. 물탱크 */ = {
+			isa = PBXGroup;
+			children = (
+				484B790E2571EDED00FD9239 /* watertank.cpp */,
+				484B79122571EDFC00FD9239 /* watertank.inp */,
+				484B79132571EE0300FD9239 /* watertank.out */,
+			);
+			path = "28. 물탱크";
+			sourceTree = "<group>";
+		};
+		484B790D2571EDD100FD9239 /* 29. Sum of Subset */ = {
+			isa = PBXGroup;
+			children = (
+				484B7915257201DF00FD9239 /* sum.cpp */,
+				484B79182572025A00FD9239 /* sum.inp */,
+				484B79192572026600FD9239 /* sum.out */,
+			);
+			path = "29. Sum of Subset";
+			sourceTree = "<group>";
+		};
 		4856288F254AD00700C90DE6 /* 19. Coin Game 2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +300,7 @@
 		48715CE224C84FE40065D0E1 = {
 			isa = PBXGroup;
 			children = (
+				48D7F360257B41DB00CD9A37 /* DUCC */,
 				48715CED24C84FE40065D0E1 /* algorithm */,
 				48715CEC24C84FE40065D0E1 /* Products */,
 			);
@@ -268,7 +317,6 @@
 		48715CED24C84FE40065D0E1 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				4879F07B2568F55800ED9802 /* 26. set of rectangles */,
 				4816BA3924FF9F8D00A4BA81 /* 1.격자경로 */,
 				4816BA3E24FFC46400A4BA81 /* 2.정수소인수분해 */,
 				48BF3A2F25034640003A9B84 /* 3.Finding Card Sequence */,
@@ -294,6 +342,10 @@
 				482937BB25555B3A00D47401 /* 23. 직사각형 */,
 				486922B72562840200074596 /* 24. MST(Prim & Kruskal) */,
 				48E7D2FD2563D6DD00BC2696 /* 25. Block Compaction */,
+				4879F07B2568F55800ED9802 /* 26. set of rectangles */,
+				484B790B2571EDC700FD9239 /* 27. Freelancer */,
+				484B790C2571EDCA00FD9239 /* 28. 물탱크 */,
+				484B790D2571EDD100FD9239 /* 29. Sum of Subset */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -306,6 +358,55 @@
 				4879F0812568F5C700ED9802 /* rectangles.out */,
 			);
 			path = "26. set of rectangles";
+			sourceTree = "<group>";
+		};
+		48A9EBA9257DF1B400DF713C /* 1번 */ = {
+			isa = PBXGroup;
+			children = (
+				48A9EBAE257DFC9400DF713C /* abbb.cpp */,
+				48A9EBB2257DFC9D00DF713C /* abbb.inp */,
+				48A9EBB3257DFCA600DF713C /* abbb.out */,
+			);
+			name = "1번";
+			path = "1번";
+			sourceTree = "<group>";
+		};
+		48A9EBAA257DF1B900DF713C /* 2번 */ = {
+			isa = PBXGroup;
+			children = (
+				48A9EBB5257E009800DF713C /* distance.cpp */,
+				48A9EBB8257E00A100DF713C /* distance.inp */,
+				48A9EBB9257E00AB00DF713C /* distance.out */,
+			);
+			name = "2번";
+			path = "2번";
+			sourceTree = "<group>";
+		};
+		48A9EBAB257DF1BD00DF713C /* 3번 */ = {
+			isa = PBXGroup;
+			children = (
+				48A9EBBC257E05F600DF713C /* trip.cpp */,
+				48A9EBBF257E05FD00DF713C /* trip.inp */,
+				48A9EBC0257E060300DF713C /* trip.out */,
+			);
+			name = "3번";
+			path = "3번";
+			sourceTree = "<group>";
+		};
+		48A9EBAC257DF1C100DF713C /* 4번 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "4번";
+			path = "4번";
+			sourceTree = "<group>";
+		};
+		48A9EBAD257DF1C500DF713C /* 5번 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "5번";
+			path = "5번";
 			sourceTree = "<group>";
 		};
 		48AFA708251F7FBE00869E52 /* 11. Palindrome */ = {
@@ -358,6 +459,42 @@
 			);
 			name = "14.격자경로3";
 			path = "14.격자경로3";
+			sourceTree = "<group>";
+		};
+		48D7F360257B41DB00CD9A37 /* DUCC */ = {
+			isa = PBXGroup;
+			children = (
+				48A9EBA9257DF1B400DF713C /* 1번 */,
+				48A9EBAA257DF1B900DF713C /* 2번 */,
+				48A9EBAB257DF1BD00DF713C /* 3번 */,
+				48A9EBAC257DF1C100DF713C /* 4번 */,
+				48A9EBAD257DF1C500DF713C /* 5번 */,
+				48D7F368257B43F400CD9A37 /* 연습문제1 */,
+				48D7F375257B475100CD9A37 /* 연습문제2 */,
+			);
+			path = DUCC;
+			sourceTree = "<group>";
+		};
+		48D7F368257B43F400CD9A37 /* 연습문제1 */ = {
+			isa = PBXGroup;
+			children = (
+				48D7F369257B43FD00CD9A37 /* palindrome.cpp */,
+				48D7F36E257B441000CD9A37 /* palindrome.inp */,
+				48D7F370257B441B00CD9A37 /* palindrome.out */,
+			);
+			name = "연습문제1";
+			path = "연습문제1";
+			sourceTree = "<group>";
+		};
+		48D7F375257B475100CD9A37 /* 연습문제2 */ = {
+			isa = PBXGroup;
+			children = (
+				48D7F377257B476B00CD9A37 /* numbers.cpp */,
+				48D7F37A257B477400CD9A37 /* numbers.inp */,
+				48D7F37B257B477C00CD9A37 /* numbers.out */,
+			);
+			name = "연습문제2";
+			path = "연습문제2";
 			sourceTree = "<group>";
 		};
 		48D819C52514CE2A000018DA /* 7.Big Fibonacci */ = {
@@ -487,7 +624,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4879F07D2568F5AA00ED9802 /* rectangles.cpp in Sources */,
+				48A9EBBD257E05F600DF713C /* trip.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
