@@ -10,7 +10,7 @@ function initLight() {
 }
 
 function initRenderer() {
-  camera.position.z = 10;
+  camera.position.z = 15;
   renderer.setClearColor("#FFFFFF");
   renderer.setSize(500, 500);
   // Append Renderer to DOM
@@ -21,7 +21,7 @@ function initGeometry() {
   // scene.add(axesHelper);
 
   //   var material0 = new THREE.MeshLambertMaterial({ color: "#ff0000" });
-  var geometryCube = new THREE.BoxGeometry(0.5, 0.5, 0.5);
+  var geometryCube = new THREE.BoxGeometry(1, 1, 1);
   //   var geometryCube = new THREE.SphereGeometry(0.5);
   //   var geometryCube = new THREE.ConeGeometry(0.3, 0.5);
 
@@ -41,8 +41,8 @@ function initGeometry() {
       //Translation
       //   cube.translateX(-4.0 + 2.0 * i);
       //   cube.translateY(-4.0 + 2.0 * j);
-      cube.translateX(-4.5 + 1.0 * i);
-      cube.translateY(-4.5 + 1.0 * j);
+      cube.translateX(-9 + 2.0 * i);
+      cube.translateY(-9 + 2.0 * j);
       // Add cube to Scene
       scene.add(cube);
       check++;
